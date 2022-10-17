@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <script src="/js/jquery-3.6.1.js"></script>
+    <script src="/js/addadmin.js"></script>
+    <script src="/js/logout.js"></script>
+    <title>GTC</title>
+    <link rel="icon" href="/img/logo.jpg">
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+
+<body>
+    <div>
+        <h1> Global Connect </h1> <button id="logBtn">Logout</button>
+        <hr>
+    </div>
+    <div class="container">
+  <form>
+  <input type="search" placeholder="Search...">
+  <button type="submit">Search</button>
+</form>
+    <div id="button" style= "position:relative; left:0px; bottom:45px;">
+        <button id="addBtn" style="margin:10px;">Add</button>
+        <button style="margin:10px;">Edit</button>
+        <button style="margin:10px;">Delete</button>
+    </div>
+    <div id='cssmenu'style = "position:relative; left:0px; bottom:50px;">
+        <ul>
+            <li><a href='/home'><span>Home</span></a></li>
+            <li><a href='/admin'><span>Admin</span></a></li>
+            <li><a href='/vendor'><span>Vendor</span></a></li>
+            <li><a href='/user'><span>User</span></a></li>
+            <li><a href="/product"><span>Product</span></a></li>
+            <li><a href="/ad"><span>Ad</span></a></li>
+        </ul>
+    </div>
+    <div style = "position:relative; left:20px; bottom:280px;">
+        <table id="admin">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>Arun</td>
+                    <td>arun@gmail.com</td>
+                </tr>
+                <tr>
+                     <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>Ram</td>
+                    <td>ram@gmail.com</td>
+                </tr>
+                <tr>
+                     <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>Kumar</td>
+                    <td>kumar@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="button" style = "position:relative; left:40px; bottom:280px;">
+        <button id="addBtn" style="margin:10px;">Preview</button>
+        <button style="margin:10px;">next</button>
+        </div>
+</body>
+
+</html>

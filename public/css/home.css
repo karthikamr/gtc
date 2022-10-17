@@ -1,0 +1,163 @@
+/* .center {
+    margin-left:0px;
+    height: 5px;
+    float: center;
+    padding: bottom;
+  } */
+  body {
+    background-image: url("/img/back4.jpg");
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  } 
+ 
+
+h1 {
+    text-align: center;
+} 
+
+hr {
+  height:2px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background : linear-gradient(to left, blue, red);
+}
+
+#logBtn {
+    float:right;
+}
+
+#cssmenu {padding: 0; margin: 0; border: 0; line-height: 1;}
+#cssmenu ul,
+#cssmenu ul li{list-style: none; margin: 0; padding: 0;}
+
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {position: relative; z-index: 599; cursor: default;}
+
+#cssmenu {width: 100px; background: #f7f7f7; font-family:sans-serif; font-weight:bold;
+zoom: 1; font-size: 12px;}
+#cssmenu:before {content: ''; display: block;}
+
+#cssmenu:after{content: ''; display: table; clear: both;}
+#cssmenu a {display: block; padding: 15px 20px; color: #f26724; text-decoration: none;
+text-transform: uppercase; border-bottom: 1px solid #ffffff;}
+
+#cssmenu > ul {width: 100px;}
+#cssmenu > ul > li > a {border-left: 4px solid #095586; color: #095586;}
+
+#cssmenu > ul > li a:hover {background: #095586; color:#f1f1f1;}
+
+  #my-pie-chart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-start;
+  }
+  
+  #my-pie-chart {
+    background: conic-gradient(brown 0.00%, black 0.00% 0.55%, blue 0.55% 6.08%, green 6.08% 13.68%, yellow 13.68% 23.27%, orange 23.27% 40.47%, red 40.47%);
+    border-radius: 50%;
+      width: 150px;
+      height: 150px;
+  }
+  
+  #piechart1 {
+    margin-left: 20px;
+    background-color: white;
+    padding: 5px;
+  }
+  
+  .entry {
+    display: flex;
+    align-items: center;
+  }
+  
+  .entry-color {
+      height: 10px;
+      width: 10px;
+  }
+  
+  .entry-text {
+    margin-left: 5px;
+  }
+  
+  #color-red {
+    background-color: red;
+  }
+  
+  #color-orange {
+    background-color: orange;
+  }
+  
+  #color-yellow {
+    background-color: yellow;
+  }
+  
+  #color-green {
+    background-color: green;
+  }
+  
+  #color-blue {
+    background-color: blue;
+  }
+  
+  #color-black {
+    background-color: black;
+  }
+  
+  #color-brown {
+    background-color: brown;
+  }
+  
+  .quiz-chartTip {
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    background-color: rgba(255,255,255,.9);
+    box-shadow: 3px 3px 10px rgba(0,0,0,.1);
+    position: absolute;
+    z-index: 50;
+    max-width: 200px;
+}
+
+.quiz-graph {
+    padding: 10px; 
+    height: 370px;
+    width: 100%;
+}
+
+.quiz-graph .x-labels {
+    text-anchor: middle;
+}
+
+.quiz-graph .y-labels {
+    text-anchor: end;
+}
+
+.quiz-graph .quiz-graph-grid {
+    stroke: #ccc;
+    stroke-dasharray: 0;
+    stroke-width: 1;
+}
+
+.label-title {
+    text-anchor: middle;
+    text-transform: uppercase;
+    font-size: 12px;
+    fill: gray;
+}
+
+.quiz-graph-dot, .quiz-graph-start-dot{
+    fill: rgba(0,112,210,1);
+    stroke-width: 2;
+    stroke: white;   
+}
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  float: left;
+  padding-right: 50px;
+  text-align: center;
+}

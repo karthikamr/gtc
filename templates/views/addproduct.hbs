@@ -1,0 +1,77 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="/js/jquery-3.6.1.js"></script>
+    <script src="/js/addproduct.js"></script>
+    <script src="/js/logout.js"></script>
+    <link rel="stylesheet" href="/css/addproduct.css">
+    <title>GTC</title>
+    <link rel="icon" href="/img/logo.jpg">
+</head>
+
+<body>
+    <div>
+        <h1> Global Connect </h1> <button id="logBtn">Logout</button>
+        <hr>
+    </div>
+    <div id='cssmenu'>
+        <ul>
+            <li><a href='/home'><span>Home</span></a></li>
+            <li><a href='/admin'><span>Admin</span></a></li>
+            <li><a href='/vendor'><span>Vendor</span></a></li>
+            <li><a href='/user'><span>User</span></a></li>
+            <li><a href="/product"><span>Product</span></a></li>
+            <li><a href="/ad"><span>Ad</span></a></li>
+        </ul>
+    </div>
+    <div style="position:absolute; left:115px; top:80px;">
+        <form action="/action_page.php">
+            <label>First name:</label>
+            <input type="text" id="firstName">
+            <label>Vendor</label>
+            <select>
+                <option>Vendor 1</option>
+                <option>Vendor 2</option>
+            </select>
+            <label>Quantity</label>
+            <input type="text" id="password">
+            <br>
+            <br>
+            <br>
+            <label>Category</label>
+            <select>
+                <option>Dress</option>
+                <option>Toys</option>
+            </select>
+            <label>Sub Category</label>
+            <select>
+                <option>Women</option>
+                <option>Men</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label>Price</label>
+            <input type="text" id="lastName">
+            <label>Status</label>
+            <select>
+                <option>Out of stock</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label for="freeform">Description</label>
+            <br>
+            <textarea id="freeform" name="freeform" rows="4" cols="50">
+            </textarea>
+    </div>
+    <div style="position:absolute; left:180px;">
+    <input type="submit" value="Create">
+        <input type="Reset" value="Reset" style =" position: relative; left:70px;">
+    </div>
+</body>
+
+
+</html>

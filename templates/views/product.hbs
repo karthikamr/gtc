@@ -1,0 +1,84 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="/js/jquery-3.6.1.js"></script>
+    <script src="/js/product.js"></script>
+    <script src="/js/logout.js"></script>
+    <link rel="stylesheet" href="/css/product.css">
+    <title>GTC</title>
+    <link rel="icon" href="/img/logo.jpg">
+</head>
+
+<body>
+    <div>
+        <h1> Global Connect </h1> <button id="logBtn">Logout</button>
+        <hr>
+    </div>
+    <div class="container">
+  <form>
+  <input type="search" placeholder="Search...">
+  <button type="submit">Search</button>
+</form>
+    <div id="button" style = "position:relative; left:0px; bottom:45px;">
+        <button id="addBtn" style="margin:10px;">Add</button>
+        <button style="margin:10px;">Edit</button>
+        <button style="margin:10px;">Delete</button>
+    </div>
+    <div id='cssmenu' style = "position:relative; left:0px; bottom:50px;">
+        <ul>
+            <li><a href='/home'><span>Home</span></a></li>
+            <li><a href='/admin'><span>Admin</span></a></li>
+            <li><a href='/vendor'><span>Vendor</span></a></li>
+            <li><a href='/user'><span>User</span></a></li>
+            <li><a href="/product"><span>Product</span></a></li>
+            <li><a href="/ad"><span>Ad</span></a></li>
+        </ul>
+    </div>
+
+    <div style = "position:relative; left:30px; bottom:300px;">
+    <table id="admin" >
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Vendor Name</th>
+                    <th>Quantity Available</th>
+                    <th>Revenue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ABC</td>
+                    <td>Vendor 1</td>
+                     <td>30</td>
+                      <td>8000</td>
+                </tr>
+                <tr>
+                     <td>Pen</td>
+                    <td>Vendor 2</td>
+                     <td>40</td>
+                      <td>3000</td>
+                </tr>
+                <tr>
+                     <td>Pencil</td>
+                    <td>Vendor 3</td>
+                     <td>60</td>
+                      <td>8000</td>
+                </tr>
+                <tr>
+                     <td>Shampoo</td>
+                    <td>Vendor 4</td>
+                     <td>100</td>
+                      <td>5000</td>
+                </tr>
+            </tbody>
+        </table>
+            </div>
+            <div id="button" style = "position:relative; left:40px; bottom:300px;">
+        <button id="addBtn" style="margin:10px;">Preview</button>
+        <button style="margin:10px;">next</button>
+        </div>
+</body>
+
+</html>

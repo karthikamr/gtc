@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <script src="/js/jquery-3.6.1.js"></script>
+    <script src="/js/home.js"></script>
+    <script src="/js/logout.js"></script>
+    <link rel="icon" href="/img/logo.jpg">
+    <link rel="stylesheet" href="/css/home.css">
+    <title>GTC</title>
+</head>
+
+<body>
+    <div>
+        <h1> Global Connect </h1> <button id="logBtn">Logout</button>
+        <hr>
+    </div>
+    <div id='cssmenu'>
+        <ul>
+            <li><a href='/home'><span>Home</span></a></li>
+            <li><a href='/admin'><span>Admin</span></a></li>
+            <li><a href='/vendor'><span>Vendor</span></a></li>
+            <li><a href='/user'><span>User</span></a></li>
+            <li><a href="/product"><span>Product</span></a></li>
+            <li><a href="/ad"><span>Ad</span></a></li>
+        </ul>
+    </div>
+    <div id="my-pie-chart-container" style="position:absolute; left:130px; bottom:120px;">
+        <div id="my-pie-chart"></div>
+
+        <p style="position:absolute; left:40px; bottom:135px;">Top 5 Product</p>
+        <div id="piechart1">
+            <div class="entry">
+                <div id="color-brown" class="entry-color"></div>
+                <div class="entry-text">Product 1</div>
+            </div>
+            <div class="entry">
+                <div id="color-black" class="entry-color"></div>
+                <div class="entry-text">Product 2</div>
+            </div>
+            <div class="entry">
+                <div id="color-blue" class="entry-color"></div>
+                <div class="entry-text">Product 3</div>
+            </div>
+            <div class="entry">
+                <div id="color-green" class="entry-color"></div>
+                <div class="entry-text">Product 4</div>
+            </div>
+            <div class="entry">
+                <div id="color-yellow" class="entry-color"></div>
+                <div class="entry-text">Product 5</div>
+            </div>
+        </div>
+
+        <div id="my-pie-chart-container" style="position:relative; left:100px; bottom:0px;">
+            <div id="my-pie-chart"></div>
+            <p style="position:absolute; left:40px; bottom:135px;">Top 5 Vendor</p>
+            <div id="piechart1">
+                <div class="entry">
+                    <div id="color-brown" class="entry-color"></div>
+                    <div class="entry-text">Vendor1</div>
+                </div>
+                <div class="entry">
+                    <div id="color-black" class="entry-color"></div>
+                    <div class="entry-text">Vendor 2</div>
+                </div>
+                <div class="entry">
+                    <div id="color-blue" class="entry-color"></div>
+                    <div class="entry-text">Vendor 3</div>
+                </div>
+                <div class="entry">
+                    <div id="color-green" class="entry-color"></div>
+                    <div class="entry-text">Vendor 4</div>
+                </div>
+                <div class="entry">
+                    <div id="color-yellow" class="entry-color"></div>
+                    <div class="entry-text">Vendor 5</div>
+
+                </div>
+            </div>
+            <canvas id="line-chart" width="100" height="100"></canvas>
+
+<footer>
+ <img src="/img/line.gif"  id="center" width="20" height="90" style="position:fixed; left:150px;right: 800px; top:280px;">
+</footer>
+</body>
+</html>
